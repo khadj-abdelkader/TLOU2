@@ -1,10 +1,10 @@
 pages:
+  stage: deploy
   script:
-  — mkdir .public
-  — cp -r * .public
-  — mv .public public
+    - echo 'Nothing to do...'
   artifacts:
     paths:
-    — public
+      - public
+    expire_in: 1 day
   only:
-  — master
+    - master
