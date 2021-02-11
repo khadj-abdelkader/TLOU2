@@ -1,0 +1,206 @@
+.Coureurs {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 10%;
+  border:solid white 1px;
+  align-items: center;
+  height: 200px;
+          }
+
+.Coureurs:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transition: transform .2s;
+  width: 160px;
+  height: 160px;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.Claqueurs {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 10%;
+  border:solid white 1px;
+  align-items: center;
+  height: 250px;
+}
+
+.Claqueurs:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+.container2 {
+  padding: 2px 16px;
+}
+
+.Rodeurs {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 10%;
+  border:solid white 1px;
+  align-items: center;
+  height: 200px;
+}
+
+.Rodeurs:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+}
+
+.container3 {
+  padding: 2px 16px;
+}
+
+.Colosses {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 10%;
+  border:solid white 1px;
+  align-items: center;
+  height: 338px;
+}
+
+.Colosses:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container4 {
+  padding: 2px 16px;
+}
+
+.Puants {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 10%;
+  border:solid white 1px;
+  align-items: center;
+  height: 285px;
+}
+
+.Puants:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container5 {
+  padding: 2px 16px;
+}
+
+.text{
+	text-align: center;
+	color:white;
+	top:10px;
+}
+
+h4 {
+	text-align: center;
+	color:white;
+}
+
+h1{
+	text-align: center;
+	color:white;
+	display:flex;
+  justify-content:space-around;
+  align-items: flex-top;
+}
+
+.bgimage{
+	background-image: url(../image/accueil.png);
+	background-size: cover;
+	background-position: bottom;
+	height:100vh;
+	display:flex;
+}
+
+*{
+  padding:0;
+  margin:0;
+}
+
+.bgimage{
+  background-image: url(../image/accueil.png);
+  background-size: cover;
+  background-position: bottom;
+  height:100vh;
+  display:flex;
+    }
+
+.contact {
+  margin: 5px;
+  padding: 10px;
+  float:left;
+  filter:invert(100%);
+  position: relative;
+  top : 300px;
+}
+
+.TLOU2 {
+  float:left;
+}
+
+article {
+  background-color: black;
+  opacity : 0.5;
+}
+
+.accueil{
+  color:white;
+  position: relative;
+  top : 150px;
+
+}
+
+.histoire{
+  color:white;
+  position: relative;
+  top : 150px;
+
+}
+
+.règles{
+  color:white;
+  position: relative;
+  top : 150px;
+  
+}
+
+
+
+header{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width : 30%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+a{
+  color: white;
+
+}
+
+li{
+  list-style-type: none
+}
+
+footer ul {
+    display:flex;
+    justify-content:space-around;
+    align-items: flex-end;
+    width: 100%;
+    height: 50%;
+}
+
+footer {
+  width:100%;
+  height: 100%;
+}
+
+main {
+  display: flex;
+}

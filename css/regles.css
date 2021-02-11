@@ -1,0 +1,87 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+.bgimage{
+	background-image: url(../image/accueil.png);
+	background-size: cover;
+	background-position: bottom;
+	height:100vh;
+	display:flex;
+		}
+
+.contact {
+	margin: 5px;
+	padding: 10px;
+	float:left;
+	filter:invert(100%);
+	position: relative;
+	top : 300px;
+}
+
+.TLOU2 {
+	float:left;
+}
+
+article {
+	background-color: black;
+	opacity : 0.5;
+}
+
+.accueil{
+	color:white;
+	position: relative;
+	top : 150px;
+
+}
+
+.histoire{
+	color:white;
+	position: relative;
+	top : 150px;
+
+}
+
+.règles{
+	color:white;
+	position: relative;
+	top : 150px;
+	
+}
+
+
+
+header{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	width : 30%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+a{
+	color: white;
+
+}
+
+li{
+	list-style-type: none
+}
+
+footer ul {
+	display:flex;
+    justify-content:space-around;
+    align-items: flex-end;
+    width: 100%;
+    height: 97.5%;
+}
+
+footer {
+	width:100%;
+	height: 100%;
+}
+
+.regles_texte{
+	color:white;
+}
